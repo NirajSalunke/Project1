@@ -2,7 +2,7 @@
 ---
 
 # Portfolio Website
-
+Myself Niraj Salunke
 Welcome to my portfolio website! This project showcases my skills, projects, and experiences as a first-year student at PICT.
 
 ## Technologies Used
