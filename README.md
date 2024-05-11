@@ -37,9 +37,9 @@ To get a local copy up and running follow these simple steps.
    ```
 4. Start the development server:
    ```sh
-   npm start
+   npm run dev
    ```
-5. Open your browser and visit `http://localhost:3000` to view the website.
+5. Open your browser and visit `http://localhost:5173` to view the website.
 
 ## Contributing
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
