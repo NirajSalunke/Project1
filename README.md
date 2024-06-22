@@ -25,11 +25,11 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/portfolio-website.git
+   git clone https://github.com/NirajSalunke/Project1.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd portfolio-website
+   cd Project1
    ```
 3. Install dependencies:
    ```sh
