@@ -23,6 +23,8 @@ import {
   jobit,
   tripguide,
   threejs,
+  mos,
+  por,
 } from "../assets";
 
 export const navLinks = [
@@ -251,11 +253,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Project_1",
-    description: "DesCription of Project",
+    name: "Mosaicify",
+    description:
+      "Mosaicify is a Photo Gallery and sharing app built as our project for  Hackathon - Tech Rush. We won title as  Best Project Award in Full Stack Domain.",
     tags: [
       {
-        name: "react",
+        name: "Reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -263,19 +266,20 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "techStacksNeeded",
+        name: "Threejs GSAP",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: mos,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Project_2",
-    description: "DesCription of Project",
+    name: "Hoo-Bank",
+    description:
+      "Frontend Project with seamless interactive UI UX design. It has amazing design with good color pallete. Future goals will be converting this a full stack website ",
     tags: [
       {
-        name: "react",
+        name: "reactjs",
         color: "blue-text-gradient",
       },
       {
@@ -283,33 +287,37 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "FramerMotion",
+        name: "GSAP",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Vite",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: por,
     source_code_link: "https://github.com/",
   },
-  {
-    name: "Project_3",
-    description: "DesCription of Project",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "TailwindCSS",
-        color: "green-text-gradient",
-      },
-      {
-        name: "THREE.js",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Project_3",
+  //   description: "DesCription of Project",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "TailwindCSS",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "THREE.js",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
   // {
   //   name: "Car Rent",
   //   description:

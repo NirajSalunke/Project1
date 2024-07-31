@@ -29,8 +29,11 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import mos from "./mosai.png";
+import por from "./por.png";
 export {
+  por,
+  mos,
   logo,
   backend,
   creator,
