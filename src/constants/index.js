@@ -1,26 +1,20 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
-  meta,
   starbucks,
   tesla,
-  shopify,
-  carrent,
-  jobit,
+  redux,
   tripguide,
   threejs,
   mos,
@@ -44,17 +38,17 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Front-End Developer",
+    title: "3D Web Developer",
     icon: web,
   },
   {
-    title: "React Developer",
+    title: "Nextjs Developer",
     icon: mobile,
   },
-  // {
-  //   title: "Backend Developer",
-  //   icon: backend,
-  // },
+  {
+    title: "Backend Developer",
+    icon: backend,
+  },
   // {
   //   title: "Content Creator",
   //   icon: creator,
@@ -74,18 +68,22 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   // {
-  //   name: "TypeScript",
-  //   icon: typescript,
+  //   name: "Go",
+  //   icon: go,
   // },
   {
     name: "React JS",
     icon: reactjs,
   },
-  // {
-  //   name: "Redux Toolkit",
-  //   icon: redux,
-  // },
+  {
+    name: "GO",
+    icon: redux,
+  },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -94,10 +92,10 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  // {
-  //   name: "MongoDB",
-  //   icon: mongodb,
-  // },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
   {
     name: "Three JS",
     icon: threejs,
@@ -118,37 +116,39 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Work Title",
-    company_name: "Company_Name",
+    title: "3D Web Developer",
+    company_name: "PICT CSI Web Dev Team",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "Date of Join and Leave",
-    points: ["Point-1", "Ppint-2", "Point-3", "Point-4"],
+    date: "June 2024 ",
+    points: ["Worked on their official website."],
   },
   {
-    title: "Work Title",
-    company_name: "Company_Name",
+    title: "Full Stack Developer Intern",
+    company_name: "GameDevUtopia Umbrella Organization",
     icon: tesla,
     iconBg: "#383E56",
-    date: "Date of Join and Leave",
-    points: ["Point-1", "Ppint-2", "Point-3", "Point-4"],
+    date: "Oct 2024-Ongoing (4 months) ",
+    points: [
+      "Currently working as full-stack intern and working on their website!",
+    ],
   },
-  {
-    title: "Work Title",
-    company_name: "Company_Name",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Date of Join and Leave",
-    points: ["Point-1", "Point-2", "Point-3", "Point-4"],
-  },
-  {
-    title: "Work Title",
-    company_name: "Company_Name",
-    icon: meta,
-    iconBg: "#383E56",
-    date: "Date of Join and Leave",
-    points: ["Point-1", "Point-2", "Point-3", "Point-4"],
-  },
+  // {
+  //   title: "Work Title",
+  //   company_name: "Company_Name",
+  //   icon: shopify,
+  //   iconBg: "#383E56",
+  //   date: "Date of Join and Leave",
+  //   points: ["Point-1", "Point-2", "Point-3", "Point-4"],
+  // },
+  // {
+  //   title: "Work Title",
+  //   company_name: "Company_Name",
+  //   icon: meta,
+  //   iconBg: "#383E56",
+  //   date: "Date of Join and Leave",
+  //   points: ["Point-1", "Point-2", "Point-3", "Point-4"],
+  // },
   // {
   //   title: "React.js Developer",
   //   company_name: "Starbucks",
@@ -298,26 +298,28 @@ const projects = [
     image: por,
     source_code_link: "https://github.com/",
   },
-  // {
-  //   name: "Project_3",
-  //   description: "DesCription of Project",
-  //   tags: [
-  //     {
-  //       name: "react",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "TailwindCSS",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "THREE.js",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
+
+  {
+    name: "Zesto Caller",
+    description:
+      "This is a full-stack video conferencing application. The app offers real-time video conferencing with a host of features with user authentication and lot more.",
+    tags: [
+      {
+        name: "Nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stream.io",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: tripguide,
+    source_code_link: "https://github.com/NirajSalunke/zesto",
+  },
   // {
   //   name: "Car Rent",
   //   description:

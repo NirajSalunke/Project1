@@ -3,7 +3,6 @@ import {
   About,
   Contact,
   Experience,
-  Feedbacks,
   Hero,
   Navbar,
   Tech,
@@ -19,7 +18,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        {/* <Experience /> */}
+        <Experience />
         <Tech />
         <Works />
         {/* <Feedbacks /> */}
